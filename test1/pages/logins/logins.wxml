@@ -1,0 +1,12 @@
+<!--pages/logins/logins.wxml-->
+<view class="container">
+  <view class="welcome-text">欢迎</view>
+  <view class="logo-container">
+    <image class="logo" src="pages/images/logo.png"></image>
+  </view>
+  <view class="app-name">fzuer协创圈</view>
+  <view class="button-container">
+    <button class="button" type="primary" bindtap="login">登录</button>
+    <button class="button" type="default" bindtap="register">注册</button>
+  </view>
+</view>

@@ -1,0 +1,53 @@
+/* pages/logins/logins.wxss */
+/* Page container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Welcome text */
+  .welcome-text {
+    font-size: 32px;
+    color: #000;
+    margin-top: 100px;
+  }
+  
+  /* Logo */
+  .logo-container {
+    margin: 20px 0;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 80px;
+    background-color: #000;
+  }
+  
+  /* App name */
+  .app-name {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  /* Button container */
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    
+  }
+  
+  .button {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ddd;
+    background-attachment: fixed;
+  }
+  
+  

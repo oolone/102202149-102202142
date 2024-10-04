@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/logins/logins",
+    "pages/login2/login2",
+    "pages/enroll/enroll"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Fzuer协创圈",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "entryPagePath": "pages/logins/logins",
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
