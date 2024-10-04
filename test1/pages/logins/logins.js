@@ -15,8 +15,12 @@ Page({
     // Register function
     register: function() {
       wx.showToast({
-        title: '注册功能待实现',
+        title: '前往注册',
         icon: 'none'
+        
+      });
+      wx.navigateTo({
+        url: '/pages/enroll/enroll',
       });
     }
   });

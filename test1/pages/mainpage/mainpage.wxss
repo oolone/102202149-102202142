@@ -1,0 +1,21 @@
+/* pages/mainpage/mainpage.wxss */
+.container {
+  padding: 20px;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.username, .signature {
+  margin-bottom: 5px;
+}
+
+.buttons button {
+  margin: 10px 0;
+}
+
+.navigation navigator {
+  display: block;
+  margin: 10px 0;
+}

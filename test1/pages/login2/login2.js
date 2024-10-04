@@ -27,6 +27,9 @@ Page({
           title: '登录成功',
           icon: 'success'
         });
+        wx.navigateTo({
+          url: '/pages/mainpage/mainpage',
+        });
       } else {
         wx.showToast({
           title: '请输入账号和密码',

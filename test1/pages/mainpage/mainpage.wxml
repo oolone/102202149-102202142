@@ -1,0 +1,23 @@
+<!--pages/mainpage/mainpage.wxml-->
+<view class="container">
+  <!-- 用户信息区域 -->
+  <view class="user-info">
+    <text class="username">用户名</text>
+    <text class="signature">签名</text>
+  </view>
+
+  <!-- 功能按钮区域 -->
+  <view class="buttons">
+    <button bindtap="logout">退出登录</button>
+    <button bindtap="switchAccount">切换账号</button>
+    <button bindtap="navigateToPrivacy">隐私设置</button>
+    <button bindtap="navigateToPassword">修改密码</button>
+  </view>
+
+  <!-- 导航菜单 -->
+  <view class="navigation">
+    <navigator url="/pages/home/home">首页</navigator>
+    <navigator url="/pages/projects/projects">项目</navigator>
+    <navigator url="/pages/my/my">我的</navigator>
+  </view>
+</view>

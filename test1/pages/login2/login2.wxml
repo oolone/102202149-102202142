@@ -21,14 +21,14 @@
   <!-- Links for registration and password recovery -->
   <view class="links">
     <text>还没有注册?</text>
-    <navigator url="/pages/register/register">现在注册</navigator>
-    <navigator url="/pages/reset-password/reset-password" class="find-password">找回密码</navigator>
+    <navigator url="/pages/enroll/enroll">现在注册</navigator>
+    <navigator url="/pages/reset_password/reset_password" class="find-password">找回密码</navigator>
   </view>
 
   <!-- Indicator circles (for design purposes) -->
   <view class="indicator-container">
-    <view class="indicator          "></view>
-    <view class="indicator          "></view>
-    <view class="indicator          "></view>
+    <view class="indicator"></view>
+    <view class="indicator"></view>
+    <view class="indicator"></view>
   </view>
 </view>
