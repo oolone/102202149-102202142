@@ -73,12 +73,7 @@
     text-align: center;
     color: #666;
   }
-  
-  .find-password {
-    margin-left: 20px;
-    text-align: center;
-  }
-  
+
   /* Indicator circles */
   .indicator-container {
     margin-top: 40px;

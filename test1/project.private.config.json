@@ -4,5 +4,60 @@
   "setting": {
     "compileHotReLoad": true
   },
-  "libVersion": "3.5.8"
+  "libVersion": "3.5.8",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/program/program",
+          "pathName": "pages/program/program",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/mainpage/mainpage",
+          "pathName": "pages/mainpage/mainpage",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/login2/login2",
+          "pathName": "pages/login2/login2",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/mainpage/mainpage",
+          "pathName": "pages/mainpage/mainpage",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/logins/logins",
+          "pathName": "pages/logins/logins",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/enroll/enroll",
+          "pathName": "pages/enroll/enroll",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
 }

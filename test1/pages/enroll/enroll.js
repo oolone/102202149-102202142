@@ -48,7 +48,7 @@ Page({
 
     if (password !== confirmPassword) {
       wx.showToast({
-        title: '密码不匹配',
+        title: '两次密码不匹配',
         icon: 'none'
       });
       return;
@@ -59,12 +59,17 @@ Page({
       title: '注册成功',
       icon: 'success'
     });
-
+    setTimeout(()=>
+      {
+        wx.navigateTo({
+          url: '/pages/logins/logins',
+        })
+      }, 1000)
     // Further implementation here (e.g., API call)
   },
 
   // Function to handle back button
   goBack: function() {
-    wx.navigateBack();
+    wx.navigateTo();
   }
 });

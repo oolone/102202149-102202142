@@ -6,9 +6,9 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
+   
   }
-  
   /* Welcome text */
   .welcome-text {
     font-size: 32px;
@@ -24,6 +24,7 @@
   .logo {
     width: 80px;
     height: 80px;
+    border-radius: 20;
     background-color: #000;
   }
   
@@ -33,7 +34,17 @@
     color: #666;
     margin-bottom: 40px;
   }
-  
+  /* Back button */
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back-icon {
+  width: 24px;
+  height: 24px;
+}
   /* Button container */
   .button-container {
     display: flex;
@@ -45,6 +56,7 @@
   .button {
     width: 80px;
     height: 40px;
+    /* border: 1px solid #333; */
     border-radius: 5px;
     background-color: #ddd;
     background-attachment: fixed;

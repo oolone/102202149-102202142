@@ -1,9 +1,4 @@
 <view class="container">
-  <!-- Back button -->
-  <view class="back-button" bindtap="goBack">
-    <image class="back-icon" src="/images/back.png"></image>
-  </view>
-
   <!-- Header with registration title -->
   <view class="header">
     <text class="header-title">注册</text>
@@ -11,7 +6,7 @@
 
   <!-- Registration form -->
   <view class="registration-form">
-    <input class="input" type="text" placeholder="请输入学号" bindinput="bindStudentNumber"/>
+    <input class="input" type="text" maxlength="14" placeholder="请输入学号" bindinput="bindStudentNumber"/>
     <input class="input" type="password" placeholder="输入密码" bindinput="bindPassword"/>
     <input class="input" type="password" placeholder="确认密码" bindinput="bindConfirmPassword"/>
     <input class="input" type="email" placeholder="输入邮箱用于找回密码" bindinput="bindEmail"/>
@@ -22,8 +17,8 @@
 
   <!-- Indicator circles (for design) -->
   <view class="indicator-container">
-    <view class="indicator"></view>
-    <view class="indicator"></view>
-    <view class="indicator"></view>
+    <view class="indicator">    </view>
+    <view class="indicator">    </view>
+    <view class="indicator">    </view>
   </view>
 </view>

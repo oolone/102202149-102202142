@@ -9,7 +9,8 @@ Page({
       });
       wx.navigateTo({
         url: '/pages/login2/login2',
-      });
+      })
+
     },
   
     // Register function

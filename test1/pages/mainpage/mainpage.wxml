@@ -1,23 +1,42 @@
-<!--pages/mainpage/mainpage.wxml-->
 <view class="container">
-  <!-- 用户信息区域 -->
-  <view class="user-info">
-    <text class="username">用户名</text>
-    <text class="signature">签名</text>
+<!-- 头像 -->
+ <view class="personalmsg">
+ 
+  <view class="avatar-container">
+   <image class="avatar" src="head.jpg"></image>
   </view>
 
-  <!-- 功能按钮区域 -->
-  <view class="buttons">
-    <button bindtap="logout">退出登录</button>
-    <button bindtap="switchAccount">切换账号</button>
-    <button bindtap="navigateToPrivacy">隐私设置</button>
-    <button bindtap="navigateToPassword">修改密码</button>
+  <view class="msg">
+  <view class="username">{{username}}:huangyuejia</view>
+  <view class="username">签名:102202142</view>
   </view>
 
-  <!-- 导航菜单 -->
-  <view class="navigation">
-    <navigator url="/pages/home/home">首页</navigator>
-    <navigator url="/pages/projects/projects">项目</navigator>
-    <navigator url="/pages/my/my">我的</navigator>
+ </view>
+ <!-- 搜索框 -->
+ <!--index.wxml-->
+<view class="search-container">
+  <view class="search-left">
+    <image src="wenhao.png"></image>
+    <input type="text" placeholder="搜索"/>
   </view>
+  <view class="search-right">
+  <navigator url="/pages/search/search">
+    <image src="jiahao.png"></image>
+  </navigator>
+  </view>
+</view>
+
+<!-- 个人信息 -->
+
+  <scroll-view scroll-y="true">
+    <!-- 这里放置可上下滑动的内容 -->
+    <view class="item">内容 1</view>
+    <view class="item">内容 2</view>
+    <view class="item">内容 3</view>
+    <view class="item">内容 1</view>
+    <view class="item">内容 2</view>
+    <view class="item">内容 3</view>
+    <!-- 可以根据实际情况添加更多内容 -->
+  </scroll-view>
+
 </view>

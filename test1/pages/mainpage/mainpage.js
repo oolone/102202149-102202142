@@ -1,34 +1,21 @@
 Page({
   data: {
-    // 页面的初始数据
+    // Profile data
+    username: '用户名',  // User's name
+    signature: '签名',  // User's signature
+    avatar: '/images/avatar.png',  // Placeholder avatar imag
+    searchValue: ''//
   },
-
-  // 事件处理函数
-  logout: function() {
-    wx.showToast({
-      title: '退出登录',
-      icon: 'none'
-    });
-    // 实际退出登录的逻辑
-  },
-
-  switchAccount: function() {
-    wx.showToast({
-      title: '切换账号',
-      icon: 'none'
-    });
-    // 实际切换账号的逻辑
-  },
-
-  navigateToPrivacy: function() {
-    wx.navigateTo({
-      url: '/pages/privacy/privacy'
+  onInputChange(event) {
+    this.setData({
+      searchValue: event.detail.value,
     });
   },
+  onSearch() {
+    const { searchValue } = this.data;
+    // 在这里可以进行搜索操作，比如发送请求或者过滤数据等
+    console.log('搜索内容：', searchValue);
+  },
+  })
+  
 
-  navigateToPassword: function() {
-    wx.navigateTo({
-      url: '/pages/password/password'
-    });
-  }
-});

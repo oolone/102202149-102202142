@@ -39,8 +39,6 @@ Page({
     },
   
     // Function to handle the back button
-    goBack: function() {
-      wx.navigateBack();
-    }
+
   });
   

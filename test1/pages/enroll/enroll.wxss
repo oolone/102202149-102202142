@@ -10,24 +10,12 @@
   padding: 20px;
 }
 
-/* Back button */
-.back-button {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-
-.back-icon {
-  width: 24px;
-  height: 24px;
-}
-
 /* Header */
 .header {
   width: 100%;
   background-color: #7b5dcf;
   padding: 20px 0;
-  background-position: top;
+  border-radius: 12px;
   text-align:center;
 }
 
@@ -39,7 +27,7 @@
 
 /* Registration form */
 .registration-form {
-  width: 100%;
+  width: 90%;
   background-color: #e0e0e0;
   padding: 20px;
   border-radius: 10px;
@@ -47,7 +35,7 @@
 
 .input {
   display: block;
-  width: 100%;
+  width: 90%;
   padding: 10px;
   margin-bottom: 15px;
   border-radius: 5px;
@@ -62,6 +50,7 @@
   color: #fff;
   border-radius: 5px;
   text-align: center;
+  
 }
 
 /* Indicator circles */
