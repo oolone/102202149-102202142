@@ -1,0 +1,55 @@
+<view class="container chat">
+  <view class="chat-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/head1.jpeg"></image>
+    </view>
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">张三</text>
+        <text class="lasttime">刚刚</text>
+      </view>
+      <text class="chat-txt">你好~ ，我是张三</text>
+    </view>
+  </view>
+
+  <view class="chat-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/head2.jpeg"></image>
+    </view>
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">李四</text>
+        <text class="lasttime">3 小时前</text>
+      </view>
+      <text class="chat-txt">你好~ ，我是李四</text>
+    </view>
+  </view>
+
+  <!-- 王五的聊天项 -->
+  <view class="chat-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/head3.jpg"></image>
+    </view>
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">王五</text>
+        <text class="lasttime">2 天前</text>
+      </view>
+      <text class="chat-txt">你好~ ，我是王五</text>
+    </view>
+  </view>
+
+  <!-- 陈六的聊天项 -->
+  <view class="chat-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/head4.jpeg"></image> 
+    </view>
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">陈六</text>
+        <text class="lasttime">5 天前</text> 
+      </view>
+      <text class="chat-txt">你好~ ，我是陈六</text>
+    </view>
+  </view>
+</view>
