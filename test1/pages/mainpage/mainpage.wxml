@@ -1,0 +1,42 @@
+<view class="container">
+<!-- 头像 -->
+ <view class="personalmsg">
+ 
+  <view class="avatar-container">
+   <image class="avatar" src="head.jpg"></image>
+  </view>
+
+  <view class="msg">
+  <view class="username">{{username}}:huangyuejia</view>
+  <view class="username">签名:102202142</view>
+  </view>
+
+ </view>
+ <!-- 搜索框 -->
+ <!--index.wxml-->
+<view class="search-container">
+  <view class="search-left">
+    <image src="wenhao.png"></image>
+    <input type="text" placeholder="搜索"/>
+  </view>
+  <view class="search-right">
+  <navigator url="/pages/search/search">
+    <image src="jiahao.png"></image>
+  </navigator>
+  </view>
+</view>
+
+<!-- 个人信息 -->
+
+  <scroll-view scroll-y="true">
+    <!-- 这里放置可上下滑动的内容 -->
+    <view class="item">内容 1</view>
+    <view class="item">内容 2</view>
+    <view class="item">内容 3</view>
+    <view class="item">内容 1</view>
+    <view class="item">内容 2</view>
+    <view class="item">内容 3</view>
+    <!-- 可以根据实际情况添加更多内容 -->
+  </scroll-view>
+
+</view>
