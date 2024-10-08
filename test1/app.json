@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/logins/logins",
+    "pages/login2/login2",
+    "pages/enroll/enroll",
+    "pages/reset_password/reset_password",
+    "pages/mainpage/mainpage",
+    "pages/program/program",
+    "pages/search/search"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Fzuer协创圈",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "entryPagePath": "pages/logins/logins",
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

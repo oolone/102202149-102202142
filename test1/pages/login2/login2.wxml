@@ -1,0 +1,34 @@
+<!--pages/login2/login2.wxml-->
+<view class="container">
+  <!-- Back button -->
+  <view class="back-button" bindtap="goBack">
+    <image class="back-icon" src="/images/back.png"></image>
+  </view>
+
+  <!-- Welcome text -->
+  <view class="welcome-text">
+    <text class="greeting">你好,</text>
+    <text class="welcome-msg">欢迎来到fzuer协创圈</text>
+  </view>
+
+  <!-- Login form -->
+  <view class="login-form">
+    <input class="input" type="text" placeholder="账号:" bindinput="bindAccountInput"/>
+    <input class="input" type="password" placeholder="密码：" bindinput="bindPasswordInput"/>
+    <button class="login-button" type="primary" bindtap="login">登录</button>
+  </view>
+
+  <!-- Links for registration and password recovery -->
+  <view class="links">
+    <text>还没有注册?</text>
+    <navigator url="/pages/enroll/enroll">现在注册</navigator>
+    <navigator url="/pages/reset_password/reset_password">找回密码</navigator>
+  </view>
+
+  <!-- Indicator circles (for design purposes) -->
+  <view class="indicator-container">
+    <view class="indicator"></view>
+    <view class="indicator"></view>
+    <view class="indicator"></view>
+  </view>
+</view>
