@@ -5,9 +5,9 @@ Page({
     navTab: ["推荐", "圆桌", "热门", "收藏"],
     currentNavtab: "0",
     imgUrls: [
-      '../../images/24213.jpg',
-      '../../images/24280.jpg',
-      '../../images/1444983318907-_DSC1826.jpg'
+      'cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/24213.jpg',
+      'cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/24280.jpg',
+      'cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/1444983318907-_DSC1826.jpg'
     ],
     indicatorDots: false,
     autoplay: true,
@@ -50,18 +50,12 @@ Page({
     setTimeout(function(){wx.hideNavigationBarLoading();that.nextLoad();}, 1000);
     console.log("lower")
   },
-  //scroll: function (e) {
-  //  console.log("scroll")
-  //},
-
+ 
   //网络请求数据, 实现刷新
   refresh0: function(){
     var index_api = '';
     util.getData(index_api)
         .then(function(data){
-          //this.setData({
-          //
-          //});
           console.log(data);
         });
   },

@@ -1,7 +1,8 @@
 <view class="container chat">
-  <view class="chat-item flex-wrp">
+  <!-- 张三的聊天项 -->
+  <view bindtap="bindContact" class="chat-item flex-wrp">
     <view class="avatar flex-item">
-      <image src="../../images/head1.jpeg"></image>
+      <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/head1.jpeg"></image>
     </view>
     <view class="chat-content flex-item">
       <view class="chat-source">
@@ -12,44 +13,128 @@
     </view>
   </view>
 
-  <view class="chat-item flex-wrp">
+  <!-- 李四的聊天项 -->
+  <view bindtap="bindContact" class="chat-item flex-wrp">
     <view class="avatar flex-item">
-      <image src="../../images/head2.jpeg"></image>
+      <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/head2.jpeg"></image>
     </view>
     <view class="chat-content flex-item">
       <view class="chat-source">
         <text class="chatmate">李四</text>
-        <text class="lasttime">3 小时前</text>
+        <text class="lasttime">3 分钟前</text>
       </view>
       <text class="chat-txt">你好~ ，我是李四</text>
     </view>
   </view>
 
   <!-- 王五的聊天项 -->
-  <view class="chat-item flex-wrp">
+  <view bindtap="bindContact" class="chat-item flex-wrp">
     <view class="avatar flex-item">
-      <image src="../../images/head3.jpg"></image>
+      <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/head3.jpg"></image>
     </view>
     <view class="chat-content flex-item">
       <view class="chat-source">
         <text class="chatmate">王五</text>
-        <text class="lasttime">2 天前</text>
+        <text class="lasttime">30 分钟前</text>
       </view>
       <text class="chat-txt">你好~ ，我是王五</text>
     </view>
   </view>
 
   <!-- 陈六的聊天项 -->
-  <view class="chat-item flex-wrp">
+  <view bindtap="bindContact" class="chat-item flex-wrp">
     <view class="avatar flex-item">
-      <image src="../../images/head4.jpeg"></image> 
+      <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/head4.jpeg"></image> 
     </view>
     <view class="chat-content flex-item">
       <view class="chat-source">
         <text class="chatmate">陈六</text>
-        <text class="lasttime">5 天前</text> 
+        <text class="lasttime">1 小时前</text> 
       </view>
       <text class="chat-txt">你好~ ，我是陈六</text>
     </view>
   </view>
+
+  <!-- 赵七的聊天项 -->
+  <view bindtap="bindContact" class="chat-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/head5.jpeg"></image>
+    </view>
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">赵七</text>
+        <text class="lasttime">5 小时前</text>
+      </view>
+      <text class="chat-txt">你好~ ，我是赵七</text>
+    </view>
+  </view>
+
+  <!-- 周八的聊天项 -->
+  <view bindtap="bindContact" class="chat-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/head6.jpeg"></image>
+    </view>
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">周八</text>
+        <text class="lasttime">1 天前</text>
+      </view>
+      <text class="chat-txt">你好~ ，我是周八</text>
+    </view>
+  </view>
+  <!-- 吴九的聊天项 -->
+<view bindtap="bindContact" class="chat-item flex-wrp">
+  <view class="avatar flex-item">
+    <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/head7.jpeg"></image>
+  </view>
+  <view class="chat-content flex-item">
+    <view class="chat-source">
+      <text class="chatmate">吴九</text>
+      <text class="lasttime">3 天前</text>
+    </view>
+    <text class="chat-txt">你好~ ，我是吴九</text>
+  </view>
+</view>
+
+<!-- 郑十的聊天项 -->
+<view bindtap="bindContact" class="chat-item flex-wrp">
+  <view class="avatar flex-item">
+    <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/head8.jpeg"></image>
+  </view>
+  <view class="chat-content flex-item">
+    <view class="chat-source">
+      <text class="chatmate">郑十</text>
+      <text class="lasttime">1 周前</text>
+    </view>
+    <text class="chat-txt">你好~ ，我是郑十</text>
+  </view>
+</view>
+
+<!-- 王十一的聊天项 -->
+<view bindtap="bindContact" class="chat-item flex-wrp">
+  <view class="avatar flex-item">
+    <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/head9.jpeg"></image>
+  </view>
+  <view class="chat-content flex-item">
+    <view class="chat-source">
+      <text class="chatmate">王十一</text>
+      <text class="lasttime">3 周前</text>
+    </view>
+    <text class="chat-txt">你好~ ，我是王十一</text>
+  </view>
+</view>
+
+<!-- 陈十二的聊天项 -->
+<view bindtap="bindContact" class="chat-item flex-wrp">
+  <view class="avatar flex-item">
+    <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/head10.jpeg"></image>
+  </view>
+  <view class="chat-content flex-item">
+    <view class="chat-source">
+      <text class="chatmate">陈十二</text>
+      <text class="lasttime">1 星期前</text>
+    </view>
+    <text class="chat-txt">你好~ ，我是陈十二</text>
+  </view>
+</view>
 </view>

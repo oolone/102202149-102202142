@@ -3,42 +3,59 @@
     <view class="question-wrp">
         <view class="question-item">
             <view class="que-tag">
-                <text class="tag">阅读</text>
-                <text class="tag">电子书</text>
-                <text class="tag">Kindle</text>
-                <text class="tag">书籍</text>
-                <text class="tag">文学</text>
+                <text class="tag">智能科技</text>
+                <text class="tag">校园环保</text>
+                <text class="tag">垃圾分类</text>
+                <text class="tag">可持续发展</text>
             </view>
             <view class="que-title">
-                选择 Kindle 而不是纸质书的原因是什么？
+              智能环保垃圾桶设计项目
             </view>
-            <view class="que-content">
-                WEB前端*不靠谱天气预报员*想做代码小仙女
+
+            <view class="answerer-wrp">
+                <view class="bg-half"></view>
+                  <view class="answerer flex-wrp">
+                    <view class="avatar flex-item">
+                      <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/icon1.jpeg"></image>
+                    </view>
+                    <view class="answerer-info flex-item">
+                      <text class="answerer-name">Rebecca</text>
+                      <text class="answerer-des">WEB前端*大数据菜鸟*想做代码大佬</text>
+                  </view>
+                  <view class="follow flex-item">
+                    <text>十 好友</text>
+                </view>
+              </view>
             </view>
+            <view class="wei-input">
+              <input class="input" bindinput="bindDateInput" auto-focus placeholder="请输入申请信息"/>
+            </view>
+            <view class="que-operate flex-wrp">
+            <view class="write flex-item">
+                <button> <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/write.png"></image>
+                填写评论</button>
+            </view>
+            <view bindtap="bindItemWait" class="invite flex-item">
+                <button bindtap="onTapButton">
+                  <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/invite.png"></image>
+                  {{buttonText}}
+                </button>
+            </view>
+        </view>
             <view class="que-follow">
                 <view class="left">
                     <view class="watch">
-                        <image src="../../images/eye.png"></image>
-                        <text>3316</text>
+                        <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/eye.png"></image>
+                        <text>1024</text>
                     </view>
                     <view class="comment">
-                        <image src="../../images/comment2.png"></image>
-                        <text>27</text>
+                        <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/comment2.png"></image>
+                        <text>245</text>
                     </view>
                 </view>
                 <view class="right">
                     关注
                 </view>
-            </view>
-        </view>
-        <view class="que-operate flex-wrp">
-            <view class="invite flex-item">
-                <image src="../../images/invite.png"></image>
-                <text>邀请回答</text>
-            </view>
-            <view class="write flex-item">
-                <image src="../../images/write.png"></image>
-                <text>写回答</text>
             </view>
         </view>
     </view>
@@ -47,7 +64,7 @@
             <view class="feed-source">
                 <a class="" bindTap="">
                     <view class="avatar">
-                        <image src="../../images/icon1.jpeg"></image>
+                        <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/icon1.jpeg"></image>
                     </view>
                     <text>Rebecca</text>
                 </a>
@@ -55,17 +72,17 @@
             <view class="feed-content">
                 <view class="answer-body">
                     <view>
-                        <text class="answer-txt">难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。 另外，用kindle看小说的... </text>
+                        <text class="answer-txt">我相信，一旦这个垃圾桶投入使用，一定会成为校园里的一道亮丽风景线。期待这个项目能够早日落地，让我们的校园变得更加美丽和环保。 </text>
                     </view>
                     <view class="answer-actions">
                         <view class="like dot">
-                            <a>3.9K 赞同 </a>
+                            <a>90 赞同 </a>
                         </view>
                         <view class="comments dot">
-                            <a>254 评论 </a>
+                            <a>54 评论 </a>
                         </view>
                         <view class="time">
-                            <a>2 个月前</a>
+                            <a>1 天前</a>
                         </view>
 
                     </view>
@@ -76,7 +93,7 @@
             <view class="feed-source">
                 <a class="" bindTap="">
                     <view class="avatar">
-                        <image src="../../images/icon1.jpeg"></image>
+                        <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/icon1.jpeg"></image>
                     </view>
                     <text>Rebecca</text>
                 </a>
@@ -84,17 +101,17 @@
             <view class="feed-content">
                 <view class="answer-body">
                     <view>
-                        <text class="answer-txt">难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。 另外，用kindle看小说的... </text>
+                        <text class="answer-txt">这个智能环保垃圾桶设计项目真的太有意义了！在校园里，垃圾处理一直是个让人头疼的问题。这款垃圾桶的智能分类功能简直是神来之笔，它不仅能提高垃圾分类的效率，还能让我们更加自觉地养成环保的习惯。我特别欣赏它采用的先进传感器技术和智能算法，感觉就像给垃圾桶赋予了智慧 </text>
                     </view>
                     <view class="answer-actions">
                         <view class="like dot">
-                            <a>3.9K 赞同 </a>
+                            <a>60 赞同 </a>
                         </view>
                         <view class="comments dot">
-                            <a>254 评论 </a>
+                            <a>6 评论 </a>
                         </view>
                         <view class="time">
-                            <a>2 个月前</a>
+                            <a>2 星期前</a>
                         </view>
 
                     </view>
@@ -105,7 +122,7 @@
             <view class="feed-source">
                 <a class="" bindTap="">
                     <view class="avatar">
-                        <image src="../../images/icon1.jpeg"></image>
+                        <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/icon1.jpeg"></image>
                     </view>
                     <text>Rebecca</text>
                 </a>
@@ -113,101 +130,14 @@
             <view class="feed-content">
                 <view class="answer-body">
                     <view>
-                        <text class="answer-txt">难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。 另外，用kindle看小说的... </text>
+                        <text class="answer-txt">这个项目的设计理念非常棒，既注重实用性，又考虑到了校园环境的美观。</text>
                     </view>
                     <view class="answer-actions">
                         <view class="like dot">
-                            <a>3.9K 赞同 </a>
+                            <a>10 赞同 </a>
                         </view>
                         <view class="comments dot">
-                            <a>254 评论 </a>
-                        </view>
-                        <view class="time">
-                            <a>2 个月前</a>
-                        </view>
-
-                    </view>
-                </view>
-            </view>
-        </view>
-        <view  bindtap="bindItemTap" class="feed-item">
-            <view class="feed-source">
-                <a class="" bindTap="">
-                    <view class="avatar">
-                        <image src="../../images/icon1.jpeg"></image>
-                    </view>
-                    <text>Rebecca</text>
-                </a>
-            </view>
-            <view class="feed-content">
-                <view class="answer-body">
-                    <view>
-                        <text class="answer-txt">难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。 另外，用kindle看小说的... </text>
-                    </view>
-                    <view class="answer-actions">
-                        <view class="like dot">
-                            <a>3.9K 赞同 </a>
-                        </view>
-                        <view class="comments dot">
-                            <a>254 评论 </a>
-                        </view>
-                        <view class="time">
-                            <a>2 个月前</a>
-                        </view>
-
-                    </view>
-                </view>
-            </view>
-        </view>
-        <view  bindtap="bindItemTap" class="feed-item">
-            <view class="feed-source">
-                <a class="" bindTap="">
-                    <view class="avatar">
-                        <image src="../../images/icon1.jpeg"></image>
-                    </view>
-                    <text>Rebecca</text>
-                </a>
-            </view>
-            <view class="feed-content">
-                <view class="answer-body">
-                    <view>
-                        <text class="answer-txt">难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。 另外，用kindle看小说的... </text>
-                    </view>
-                    <view class="answer-actions">
-                        <view class="like dot">
-                            <a>3.9K 赞同 </a>
-                        </view>
-                        <view class="comments dot">
-                            <a>254 评论 </a>
-                        </view>
-                        <view class="time">
-                            <a>2 个月前</a>
-                        </view>
-
-                    </view>
-                </view>
-            </view>
-        </view>
-        <view  bindtap="bindItemTap" class="feed-item">
-            <view class="feed-source">
-                <a class="" bindTap="">
-                    <view class="avatar">
-                        <image src="../../images/icon1.jpeg"></image>
-                    </view>
-                    <text>Rebecca</text>
-                </a>
-            </view>
-            <view class="feed-content">
-                <view class="answer-body">
-                    <view>
-                        <text class="answer-txt">难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。 另外，用kindle看小说的... </text>
-                    </view>
-                    <view class="answer-actions">
-                        <view class="like dot">
-                            <a>3.9K 赞同 </a>
-                        </view>
-                        <view class="comments dot">
-                            <a>254 评论 </a>
+                            <a>4 评论 </a>
                         </view>
                         <view class="time">
                             <a>2 个月前</a>
@@ -222,4 +152,5 @@
 
     </view>
 </view>
+    
 

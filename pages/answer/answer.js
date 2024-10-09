@@ -4,7 +4,7 @@ var util = require('../../utils/util.js')
 var app = getApp()
 Page({
   data: {
-    motto: '知乎--微信小程序版',
+    motto: 'Fzuer协创圈——微信小程序',
     userInfo: {}
   },
   //事件处理函数
@@ -13,6 +13,7 @@ Page({
       url: '../question/question'
     })
   },
+  
   onLoad: function () {
     console.log('onLoad')
     var that = this

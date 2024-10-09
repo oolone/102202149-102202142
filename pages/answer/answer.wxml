@@ -1,79 +1,70 @@
 <!--answer.wxml-->
 <view class="container">
     <view class="question" bindtap="toQuestion">
-        <text class="question-title">选择 Kindle 而不是纸质书的原因是什么？</text>
+        <text class="question-title">智能环保垃圾桶设计项目</text>
     </view>
     <view class="answerer-wrp">
         <view class="bg-half"></view>
         <view class="answerer flex-wrp">
             <view class="avatar flex-item">
-                <image src="../../images/icon1.jpeg"></image>
+                <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/icon1.jpeg"></image>
             </view>
             <view class="answerer-info flex-item">
                 <text class="answerer-name">Rebecca</text>
-                <text class="answerer-des">WEB前端*不靠谱天气预报员*想做代码小仙女</text>
+                <text class="answerer-des">WEB前端*大数据菜鸟*想做代码大佬</text>
             </view>
             <view class="follow flex-item">
-                <text>十 关注</text>
+                <text>十 好友</text>
             </view>
         </view>
     </view>
     <view class="answer-content">
-        <text>难道不明白纸质书更贵啊！！！
+        <text>亲爱的同学们！
+            在当今这个注重环保的时代，我们正全力投入到一项意义非凡的智能环保垃圾桶设计项目中。
 
-            若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。
+            这款垃圾桶的设计理念紧紧围绕着“智能、环保、便捷”。它将运用先进的传感器技术，如红外线传感器、超声波传感器等，对垃圾进行实时检测和识别。通过强大的智能算法分析处理，能够准确判断垃圾的种类，并自动将其分类投放至相应的垃圾桶内。这一创新举措，不仅能极大地提高垃圾分类的效率，还能有效减少垃圾对环境的污染。
 
-            另外，用kindle看小说的怎么真心不懂了。题主不看小说么？难道题主拿来看教科书还是技术文档？还是题主觉得小说就是小时代内样的？（对小时代没偏见，尊重多样性）
+            在材料的选择上，我们格外注重环保性。垃圾桶将采用可降解塑料、再生材料等环保材料制作，降低对环境的负面影响。同时，外观设计也充分考虑了美观与实用性的完美结合，使其能够自然地融入校园景观之中。
 
-            而且纸质书搬起来真心困难啊！当初毕业带不回来，忍痛卖了不少好桑心！
-
-            碎片时间阅读总不能天天背着一本书吧，那么占地方。
-
-            看到描述最后一段，感觉有骗答案的嫌疑
+            为了给用户带来极致的使用体验，垃圾桶配备了智能显示屏和语音提示功能。智能显示屏可以实时显示垃圾桶的状态和垃圾投放情况，让同学们轻松了解垃圾桶的使用方法和垃圾投放要求。而语音提示功能则会在同学们投放垃圾时，贴心地提供相应的提示和指导，帮助大家正确地进行垃圾分类投放。
 
         </text>
-        <image src="../../images/1444983318907-_DSC1826.jpg"></image>
+        <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/1444983318907-_DSC1826.jpg"></image>
         <text>
-            难道不明白纸质书更贵啊！！！
+          此外，我们还精心开发了相应的手机应用程序。通过这个程序，同学们可以随时随地实时查看垃圾桶的状态和自己的垃圾投放记录，清晰了解自己为环保所做出的贡献。同时，手机应用程序还会提供丰富的垃圾分类知识和环保小贴士，助力同学们不断提高环保意识和垃圾分类能力。
 
-            若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。
+          我们深知，这个项目的成功离不开广大同学的积极参与和支持。在这里，我们诚挚地邀请每一位有热情、有创意、有责任感的同学加入我们的智能环保垃圾桶设计项目。无论你是擅长工程设计、编程技术，还是对环保理念有独特的见解，又或者仅仅是怀揣着一颗为校园环境贡献力量的心，我们都热烈欢迎你的加入。
 
-            另外，用kindle看小说的怎么真心不懂了。题主不看小说么？难道题主拿来看教科书还是技术文档？还是题主觉得小说就是小时代内样的？（对小时代没偏见，尊重多样性）
-
-            而且纸质书搬起来真心困难啊！当初毕业带不回来，忍痛卖了不少好桑心！
-
-            碎片时间阅读总不能天天背着一本书吧，那么占地方。
-
-            看到描述最后一段，感觉有骗答案的嫌疑
+          让我们携手共进，为打造更加美丽、清洁、可持续发展的校园环境而努力奋斗！相信在我们的共同努力下，这款智能环保垃圾桶将成为校园里一道亮丽的风景线，为我们的校园生活带来全新的环保体验。
 
         </text>
-        <image src="../../images/1444983318907-_DSC1826.jpg"></image>
+        <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/1444983318907-_DSC1826.jpg"></image>
     </view>
 
     <view class="answer-footer flex-wrp">
         <view class="good flex-item">
             <view class="good-bad">
-                <image src="../../images/good-bad.png"></image>
+                <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/good-bad.png"></image>
             </view>
-            <view class="good-num">2.1k</view>
+            <view class="good-num">浏览2.1k</view>
         </view>
         <view class="operation-wrp flex-item">
             <view class="operation flex-wrp flex-tab">
-                <view class="operation-btn flex-item">
-                    <image src="../../images/flag.png"></image>
-                    <text>没有帮助</text>
+                <view bindtap="toQuestion" class="operation-btn flex-item">
+                    <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/flag.png"></image>
+                    <text>参与项目</text>
                 </view>
                 <view class="operation-btn flex-item">
-                    <image src="../../images/heart2.png"></image>
-                    <text>感谢</text>
+                    <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/heart2.png"></image>
+                    <text>点赞</text>
                 </view>
                 <view class="operation-btn flex-item">
-                    <image src="../../images/star2.png"></image>
+                    <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/star2.png"></image>
                     <text>收藏</text>
                 </view>
                 <view class="operation-btn flex-item">
-                    <image src="../../images/comment.png"></image>
-                    <text>302</text>
+                    <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/comment.png"></image>
+                    <text>评论</text>
                 </view>
 
             </view>

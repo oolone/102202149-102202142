@@ -23,6 +23,11 @@ Page({
       focus: Date.now()
     })
   },
+  bindContact: function() {
+    wx.navigateTo({
+      url: '../contact/contact'
+    })
+  },
   bindKeyInput: function(e) {
     this.setData({
       inputValue: e.detail.value

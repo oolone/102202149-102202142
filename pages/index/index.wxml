@@ -2,11 +2,11 @@
 <scroll-view scroll-y="true" class="container" bindscrolltoupper="upper" upper-threshold="10" lower-threshold="5" bindscrolltolower="lower"  scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
   <view class="search flex-wrp">
       <view class="search-left flex-item">
-          <image src="../../images/search.png"></image>
-          <input placeholder="搜索话题, 问题或人" placeholder-class="search-placeholder"/>
+          <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/search.png"></image>
+          <input placeholder="搜索" placeholder-class="search-placeholder"/>
       </view>
       <view class="search-right flex-item" bindtap="upper">
-          <image src="../../images/lighting.png"></image>
+          <image src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/refresh2.png"></image>
       </view>
   </view>
 
@@ -19,7 +19,7 @@
                     </view>
                     <text>{{item.feed_source_name}}{{item.feed_source_txt}}</text>
                 </a>
-                <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
+                <image class="item-more" mode="aspectFit" src="cloud://fuzer-8g3jfjkw7588b9ec.6675-fuzer-8g3jfjkw7588b9ec-1330249328/images/more.png"></image>
             </view>
             <view class="feed-content">
                 <view class="question" qid="{{question_id}}" bindtap="bindQueTap">
@@ -33,13 +33,13 @@
                     </view>
                     <view class="answer-actions" bindtap="bindItemTap">
                         <view class="like dot">
-                            <a>{{item.good_num}} 赞同 </a>
+                            <a>所需人数：{{item.need_num}}</a>
                         </view>
                         <view class="comments dot">
-                            <a>{{item.comment_num}} 评论 </a>
+                            <a>已参与人数：{{item.now_num}}</a>
                         </view>
                         <view class="follow-it">
-                            <a>关注问题</a>
+                            <a>进度：{{item.status}}</a>
                         </view>
                     </view>
                 </view>
