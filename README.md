@@ -8,101 +8,127 @@
 
 ### 以下是本项目的目录结构：
 #### 校园项目伙伴招募小程序
-├── .eslintrc.js          # 用于代码风格检查的配置文件。
-├── .gitignore            # 指定哪些文件或目录不需要被 Git 跟踪。
-├── app.js                # 小程序的入口文件。
-├── app.json               # 小程序的全局配置文件
-├── app.wxss                # 小程序的全局样式文件。
-├── project.config.json      # 项目配置文件。
-├── project.private.config.json # 项目私有配置文件。
-├── README.md          # 项目说明文档。
-├── tree.txt            # 目录结构文本文件。
+# 目录结构说明
 
-├── .git                  # 用于版本控制，包含配置文件、钩子脚本、信息和日志等。
-├── cloud                 # 存放与云环境相关的文件。
-├── data                  # 用于存放数据文件。
-├── images                # 页面图标的图标存放处。
-│   ├── burger.png
-│   ├── burger_focus.png
-│   ├── chat.png
-│   ├── chat_focus.png
-│   ├── discovery.png
-│   ├── discovery_focus.png
-│   ├── index.png
-│   └── index_focus.png
-├── pages                 # 页面存放
-│   ├── answer              # 项目详情
-│   │   ├── answer.js
-│   │   ├── answer.json
-│   │   ├── answer.wxml
-│   │   └── answer.wxss
-│   ├── chat                # 聊天页面
-│   │   ├── chat.js
-│   │   ├── chat.json
-│   │   ├── chat.wxml
-│   │   └── chat.wxss
-│   ├── contact              # 对话页面页
-│   │   ├── contact.js
-│   │   ├── contact.json
-│   │   ├── contact.wxml
-│   │   └── contact.wxss
-│   ├── createpro            # 创建项目页
-│   │   ├── createpro.js
-│   │   ├── createpro.json
-│   │   ├── createpro.wxml
-│   │   └── createpro.wxss
-│   ├── discovery            # 个人项目页
-│   │   ├── discovery.js
-│   │   ├── discovery.json
-│   │   ├── discovery.wxml
-│   │   └── discovery.wxss
-│   ├── forget                # 找回密码
-│   │   ├── forget.js
-│   │   ├── forget.json
-│   │   ├── forget.wxml
-│   │   └── forget.wxss
-│   ├── index                # 首页（查找项目）
-│   │   ├── index.js
-│   │   ├── index.json
-│   │   ├── index.wxml
-│   │   └── index.wxss
-│   ├── login                # 登录注册页面
-│   │   ├── login.js
-│   │   ├── login.json
-│   │   ├── login.wxml
-│   │   └── login.wxss
-│   ├── mine                # 修改个人信息
-│   │   ├── mine.js
-│   │   ├── mine.json
-│   │   ├── mine.wxml
-│   │   └── mine.wxss
-│   ├── more                # 个人信息页
-│   │   ├── more.js
-│   │   ├── more.json
-│   │   ├── more.wxml
-│   │   └── more.wxss
-│   ├── myproject          # 个人项目页（备用版本）
-│   │   ├── myproject.js
-│   │   ├── myproject.json
-│   │   ├── myproject.wxml
-│   │   └── myproject.wxss
-│   ├── question          # 项目详情
-│   │   ├── question.js
-│   │   ├── question.json
-│   │   ├── question.wxml
-│   │   └── question.wxss
-│   ├── select            # 搜索功能
-│   │   ├── select.js
-│   │   ├── select.json
-│   │   ├── select.wxml
-│   │   └── select.wxss
-│   └── wait              # 等待审核页面
-│       ├── wait.js
-│       ├── wait.json
-│       ├── wait.wxml
-│       └── wait.wxss
-└── utils                # 存放工具函数文件
-└── util.js
+## 一、顶层文件
+- `.eslintrc.js`：用于代码风格检查的配置文件。
+- `.gitignore`：指定哪些文件或目录不需要被 Git 跟踪。
+- `app.js`：小程序的入口文件。
+- `app.json`：小程序的全局配置文件。
+- `app.wxss`：小程序的全局样式文件。
+- `project.config.json`：项目配置文件。
+- `project.private.config.json`：项目私有配置文件。
+- `README.md`：项目说明文档。
+- `tree.txt`：目录结构文本文件。
+
+## 二、`.git`目录
+用于版本控制，包含配置文件、钩子脚本、信息和日志等。
+
+## 三、`cloud`目录
+存放与云环境相关的文件。
+
+## 四、`data`目录
+用于存放数据文件。
+
+## 五、`images`目录
+页面图标的图标存放处。
+- `burger.png`
+- `burger_focus.png`
+- `chat.png`
+- `chat_focus.png`
+- `discovery.png`
+- `discovery_focus.png`
+- `index.png`
+- `index_focus.png`
+
+## 六、`pages`目录
+页面存放处。
+### （一）`answer`目录（项目详情）
+- `answer.js`
+- `answer.json`
+- `answer.wxml`
+- `answer.wxss`
+
+### （二）`chat`目录（聊天页面）
+- `chat.js`
+- `chat.json`
+- `chat.wxml`
+- `chat.wxss`
+
+### （三）`contact`目录（对话页面页）
+- `contact.js`
+- `contact.json`
+- `contact.wxml`
+- `contact.wxss`
+
+### （四）`createpro`目录（创建项目页）
+- `createpro.js`
+- `createpro.json`
+- `createpro.wxml`
+- `createpro.wxss`
+
+### （五）`discovery`目录（个人项目页）
+- `discovery.js`
+- `discovery.json`
+- `discovery.wxml`
+- `discovery.wxss`
+
+### （六）`forget`目录（找回密码）
+- `forget.js`
+- `forget.json`
+- `forget.wxml`
+- `forget.wxss`
+
+### （七）`index`目录（首页，查找项目）
+- `index.js`
+- `index.json`
+- `index.wxml`
+- `index.wxss`
+
+### （八）`login`目录（登录注册页面）
+- `login.js`
+- `login.json`
+- `login.wxml`
+- `login.wxss`
+
+### （九）`mine`目录（修改个人信息）
+- `mine.js`
+- `mine.json`
+- `mine.wxml`
+- `mine.wxss`
+
+### （十）`more`目录（个人信息页）
+- `more.js`
+- `more.json`
+- `more.wxml`
+- `more.wxss`
+
+### （十一）`myproject`目录（个人项目页，备用版本）
+- `myproject.js`
+- `myproject.json`
+- `myproject.wxml`
+- `myproject.wxss`
+
+### （十二）`question`目录（项目详情）
+- `question.js`
+- `question.json`
+- `question.wxml`
+- `question.wxss`
+
+### （十三）`select`目录（搜索功能）
+- `select.js`
+- `select.json`
+- `select.wxml`
+- `select.wxss`
+
+### （十四）`wait`目录（等待审核页面）
+- `wait.js`
+- `wait.json`
+- `wait.wxml`
+- `wait.wxss`
+
+## 七、`utils`目录
+存放工具函数文件，如`util.js`。
 
 ## 使用说明
 
